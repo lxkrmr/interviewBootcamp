@@ -2,6 +2,20 @@
 
 This is a following along of the Udemy Course "The Coding Interview Bootcamp" by Stephen Grider in Java.
 
-## Get started
+## Exercises
+
+### 1. String Reversal
+
+Implement the following method ...
+
+    com.example.interviewbootcamp.StringReversal.reverse
+
+... to meet this requirement:
+    
+    Given a String, return a new String with the reversed order of characters.
+
+Run the following test to check your implementation:
+    
+    com.example.interviewbootcamp.StringReversalTest
 
 
