@@ -22,9 +22,9 @@ class StringReversalTest {
 
     public static Stream<Arguments> rawAndReversed() {
         return Stream.of(
-                Arguments.of("apple", "leppa"),
+                Arguments.of("apple", "elppa"),
                 Arguments.of("hello", "olleh"),
-                Arguments.of("Greetings!", "!sgnitrreG")
+                Arguments.of("Greetings!", "!sgniteerG")
         );
     }
 }
