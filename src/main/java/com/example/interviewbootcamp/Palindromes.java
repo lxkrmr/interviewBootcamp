@@ -2,8 +2,8 @@ package com.example.interviewbootcamp;
 
 public class Palindromes {
 
-    public static boolean palindrome(String input) {
+    public static Boolean palindrome(String input) {
         // TODO
-        return false;
+        return null;
     }
 }
