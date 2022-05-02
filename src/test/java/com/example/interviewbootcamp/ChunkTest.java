@@ -39,7 +39,7 @@ class ChunkTest {
                                      List.of(5)
                              )
                 ),
-                Arguments.of(List.of(1, 2, 3, 4, 5, 7, 8),
+                Arguments.of(List.of(1, 2, 3, 4, 5, 6, 7, 8),
                              3,
                              List.of(List.of(1, 2, 3),
                                      List.of(4, 5, 6),

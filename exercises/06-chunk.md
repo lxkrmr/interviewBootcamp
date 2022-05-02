@@ -12,4 +12,4 @@ Implement the following method ...
 
 Run the following test to check your implementation:
 
-    com.example.interviewbootcamp.FizzBuzzTest
+    com.example.interviewbootcamp.ChunkTest
