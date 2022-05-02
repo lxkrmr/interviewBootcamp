@@ -1,4 +1,4 @@
-# 1. Integer Reversal
+# 3. Integer Reversal
 
 Implement the following method ...
 

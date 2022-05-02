@@ -1,4 +1,4 @@
-# 1. Fizz, Buzz, Fizzbuzz
+# 6. Chunk
 
 Implement the following method ...
 

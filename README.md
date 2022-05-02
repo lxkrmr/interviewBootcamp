@@ -11,3 +11,7 @@ This is a following along of the Udemy Course "The Coding Interview Bootcamp" by
 [3. Integer Reversal](exercises/03-int-reversal.md)
 
 [4. Max Chars](exercises/04-max-chars.md)
+
+[5. FizzBuzz](exercises/05-fizzbuzz.md)
+
+[6. Array Chunk](exercises/06-chunk.md)
