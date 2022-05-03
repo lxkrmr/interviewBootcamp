@@ -21,10 +21,11 @@ class AnagramsTest {
         assertThat(result).isTrue();
     }
 
-    @Test
-    void shouldReturnFalseIfFirstAndSecondWordsAreNotAnagrams() {
+    @ParameterizedTest
+    @MethodSource("givenFirstAndSecondWordsAreNotAnagrams")
+    void shouldReturnFalseIfFirstAndSecondWordsAreNotAnagrams(String firstWord, String secondWord) {
         // when
-        boolean result = Anagrams.isAnagram("Hi there", "Bye there");
+        boolean result = Anagrams.isAnagram(firstWord, secondWord);
 
         // then
         assertThat(result).isFalse();
@@ -34,6 +35,13 @@ class AnagramsTest {
         return Stream.of(
                 Arguments.of("rail safety", "fairy tales"),
                 Arguments.of("RAIL! SAFETY", "fairy tales")
+        );
+    }
+
+    public static Stream<Arguments> givenFirstAndSecondWordsAreNotAnagrams() {
+        return Stream.of(
+                Arguments.of("Hi there", "Bye there"),
+                Arguments.of("hello", "hellos")
         );
     }
 }
