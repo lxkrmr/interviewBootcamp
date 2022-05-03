@@ -15,3 +15,5 @@ This is a following along of the Udemy Course "The Coding Interview Bootcamp" by
 [5. FizzBuzz](exercises/05-fizzbuzz.md)
 
 [6. Array Chunk](exercises/06-chunk.md)
+
+[7. Anagrams](exercises/07-anagrams.md)
