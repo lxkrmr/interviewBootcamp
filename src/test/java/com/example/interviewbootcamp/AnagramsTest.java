@@ -15,7 +15,7 @@ class AnagramsTest {
     @MethodSource("givenFirstAndSecondWordsAreAnagrams")
     void shouldReturnTrueIfFirstAndSecondWordsAreAnagrams(String firstWord, String secondWord) {
         // when
-        boolean result = Anagrams.anagrams(firstWord, secondWord);
+        boolean result = Anagrams.isAnagram(firstWord, secondWord);
 
         // then
         assertThat(result).isTrue();
@@ -24,7 +24,7 @@ class AnagramsTest {
     @Test
     void shouldReturnFalseIfFirstAndSecondWordsAreNotAnagrams() {
         // when
-        boolean result = Anagrams.anagrams("Hi there", "Bye there");
+        boolean result = Anagrams.isAnagram("Hi there", "Bye there");
 
         // then
         assertThat(result).isFalse();
