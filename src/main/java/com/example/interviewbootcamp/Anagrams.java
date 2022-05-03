@@ -31,6 +31,10 @@ public class Anagrams {
     }
 
     private static boolean isAnagram(Map<Character, Integer> firstWordAsMap, Map<Character, Integer> secondWordAsMap) {
+        if(firstWordAsMap.entrySet().size() != secondWordAsMap.entrySet().size()) {
+            return false;
+        }
+
         return firstWordAsMap.entrySet()
                              .stream()
                              .map(entryInFirstWord -> {
