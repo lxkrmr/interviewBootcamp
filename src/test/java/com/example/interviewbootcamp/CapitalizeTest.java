@@ -24,7 +24,7 @@ class CapitalizeTest {
         return Stream.of(
                 Arguments.of("a short sentence", "A Short Sentence"),
                 Arguments.of("a lazy Fox", "A Lazy Fox"),
-                Arguments.of("look, it is working!", "Look, It Is Working")
+                Arguments.of("look, it is working!", "Look, It Is Working!")
         );
     }
 }
