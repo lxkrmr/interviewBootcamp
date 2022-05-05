@@ -17,3 +17,7 @@ This is a following along of the Udemy Course "The Coding Interview Bootcamp" by
 [6. Array Chunk](exercises/06-chunk.md)
 
 [7. Anagrams](exercises/07-anagrams.md)
+
+[8 Capitalize](exercises/08-capitalize.md)
+
+[9. Steps](exercises/09-steps.md)
